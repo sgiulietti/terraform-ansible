@@ -1,6 +1,8 @@
 ## Provisioning and configuring infrastructure using Terraform and Ansible on Digital Ocean
 
-Prerequisites: Have an account on Digital Ocean cloud provider.
+Prerequisites:  
+Have an account on Digital Ocean cloud provider.  
+Terraform and Ansible installed on Ubuntu OS
 
  ### TERRAFORM
 
