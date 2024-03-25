@@ -15,18 +15,18 @@ Execute on terminal the following command:
 
     terraform init
 
- Step 4: As a best practice set the Digital Ocean token into an environment variable
-Execute on terminal the following command:
+ Step 4: As a best practice set the Digital Ocean token into an environment variable  
+ Execute on terminal the following command:
 
     export TF_VAR_do_token=”YOURDIGITALOCEANTOKENHERE”
 
- Step 5: Get your ssh key id for use in the configuration file
-Execute on terminal the following command:
+ Step 5: Get your ssh key id for use in the configuration file  
+ Execute on terminal the following command:
 
     curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer $YOURDIGITALOCENTOKENHERE" "https://api.digitalocean.com/v2/account/keys"
 
- Step 6: Apply the configuratión
-Execute on terminal the following command:
+ Step 6: Apply the configuratión  
+ Execute on terminal the following command:
 
     terraform apply   
 
@@ -40,12 +40,12 @@ Execute on terminal the following command:
 
  Step 10: Create ansible.cfg file
 
- Step 11: Add into the Ansible machine the target hosts
-Execute on terminal the following command:
+ Step 11: Add into the Ansible machine the target hosts  
+ Execute on terminal the following command:
 
     ssh-keyscan -H “iptargetserver” >> ~/.ssh/known_hosts
 
- Step 12: Send and execute the configuration to the worker servers
-Execute on terminal the following command:
+ Step 12: Send and execute the configuration to the worker servers  
+ Execute on terminal the following command:
 
     ansible-playbook -i hosts play.yaml   
