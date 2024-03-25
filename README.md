@@ -1,4 +1,4 @@
-## Provisioning and configuration using Terraform and Ansible on Digital Ocean
+## Provisioning and configuring infrastructure using Terraform and Ansible on Digital Ocean
 
 Prerequisites: Have an account on Digital Ocean cloud provider.
 
