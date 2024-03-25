@@ -10,8 +10,8 @@ Terraform and Ansible installed on Ubuntu OS
 
  Step 2: Create a main.tf file
 
- Step 3: Initializes a working directory for Terraform
-Execute on terminal the following command:
+ Step 3: Initializes a working directory for Terraform  
+ Execute on terminal the following command:
 
     terraform init
 
